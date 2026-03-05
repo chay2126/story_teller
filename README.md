@@ -22,8 +22,7 @@ Generated using [Sarvam AI](https://sarvam.ai) — **Bulbul v3** model, voice: *
 
 **నీతి:** సరైన సమయంలో వినయంగా నిర్ణయం తీసుకోవడం, వెయ్యి తెలివులకంటే గొప్పది.
 
-[▶️ Listen — Ishita's Voice](audio/story1_ishita.mp3)
-
+🎧 **[Listen to the stories here](https://chay2126.github.io/story_teller/)**
 ---
 
 ## Example 2 — గర్విష్ఠి చెట్టు (The Proud Tree)
@@ -40,8 +39,7 @@ Generated using [Sarvam AI](https://sarvam.ai) — **Bulbul v3** model, voice: *
 
 **నీతి:** జీవితంలో వశ్యత అహంకారం కంటే శక్తివంతమైనది.
 
-[▶️ Listen — Ishita's Voice](audio/story2_ishita.mp3)
-
+🎧 **[Listen to the stories here](https://chay2126.github.io/story_teller/)**
 ---
 
 ## Setup
