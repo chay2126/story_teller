@@ -1,12 +1,8 @@
-# Telugu Folk Tales — Text to Speech 🎙️
-
-Generated using [Sarvam AI](https://sarvam.ai) — **Bulbul v3** model, voice: **Ishita**
-
----
-
-## Example 1 — రెండు చేపలు మరియు కప్ప (Two Fish and a Frog)
-
-ఒక అడవిలో చిన్న చెరువు ఉండేది. అందులో సహస్రబుద్ధి, శతబుద్ధి అనే రెండు తెలివైన చేపలు మరియు ఏకబుద్ధి అనే కప్ప నివసించేవి.
+STORY_1 = {
+    "title": "రెండు చేపలు మరియు కప్ప",
+    "title_english": "Two Fish and a Frog",
+    "filename": "story1_ishita.mp3",
+    "text": """ఒక అడవిలో చిన్న చెరువు ఉండేది. అందులో సహస్రబుద్ధి, శతబుద్ధి అనే రెండు తెలివైన చేపలు మరియు ఏకబుద్ధి అనే కప్ప నివసించేవి.
 
 ఒకరోజు కొందరు జాలర్లు ఆ చెరువు దగ్గర ఆగి, "రేపు ఉదయం ఇక్కడ చేపలు పట్టుదాం" అని మాట్లాడుకున్నారు.
 
@@ -20,15 +16,14 @@ Generated using [Sarvam AI](https://sarvam.ai) — **Bulbul v3** model, voice: *
 
 మరుసటి రోజు జాలర్లు వచ్చి వలలు వేశారు. శతబుద్ధి, సహస్రబుద్ధి తమ తెలివిని నమ్ముకుని అక్కడే ఉండిపోయాయి — చివరికి వలలో చిక్కుకున్నాయి.
 
-**నీతి:** సరైన సమయంలో వినయంగా నిర్ణయం తీసుకోవడం, వెయ్యి తెలివులకంటే గొప్పది.
+నీతి: సరైన సమయంలో వినయంగా నిర్ణయం తీసుకోవడం, వెయ్యి తెలివులకంటే గొప్పది."""
+}
 
-[▶️ Listen — Ishita's Voice](audio/story1_ishita.mp3)
-
----
-
-## Example 2 — గర్విష్ఠి చెట్టు (The Proud Tree)
-
-అడవిలో ఒక పెద్ద మర్రిచెట్టు ఉండేది. అది తన పరిమాణానికి చాలా గర్వపడేది.
+STORY_2 = {
+    "title": "గర్విష్ఠి చెట్టు",
+    "title_english": "The Proud Tree",
+    "filename": "story2_ishita.mp3",
+    "text": """అడవిలో ఒక పెద్ద మర్రిచెట్టు ఉండేది. అది తన పరిమాణానికి చాలా గర్వపడేది.
 
 దగ్గరలో ఒక చిన్న వెదురు మొక్క ఉండేది. మర్రిచెట్టు ఎప్పుడూ దాన్ని చూసి నవ్వేది. "నువ్వు చాలా బలహీనంగా ఉన్నావు. గాలికి కూడా వంగిపోతావు" అని పరిహసించేది.
 
@@ -38,23 +33,7 @@ Generated using [Sarvam AI](https://sarvam.ai) — **Bulbul v3** model, voice: *
 
 వెదురు మొక్క గాలికి వంగింది, కదిలింది — కానీ నిలబడింది.
 
-**నీతి:** జీవితంలో వశ్యత అహంకారం కంటే శక్తివంతమైనది.
+నీతి: జీవితంలో వశ్యత అహంకారం కంటే శక్తివంతమైనది."""
+}
 
-[▶️ Listen — Ishita's Voice](audio/story2_ishita.mp3)
-
----
-
-## Setup
-
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Add your Sarvam API key to .env
-echo "SARVAM_API_KEY=your_key_here" > .env
-
-# 3. Generate audio files
-python generate_audio.py
-```
-
-Audio files will be saved to the `audio/` folder.
+STORIES = [STORY_1, STORY_2]
